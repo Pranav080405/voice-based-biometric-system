@@ -1,5 +1,6 @@
 # voice-based-biometric-system
-This project verifies a speaker's identity by comparing two voice samples using MFCC features and cosine similarity. If the similarity exceeds a set threshold, the speaker is authenticated. It's a lightweight, effective voice-based biometric verification system.
+This project verifies a speaker's identity by comparing two voice samples using MFCC features and cosine similarity. If the similarity exceeds a set threshold, the speaker is authenticated. It's a lightweight, effective voice-based biometric verification system. When tested with two of my own voice samples, it achieved a similarity score of 0.995, successfully verifying the speaker. This demonstrates its effectiveness for simple speaker authentication.
+
 #  Install dependencies
 !apt-get install ffmpeg -y > /dev/null
 !pip install numpy scipy matplotlib soundfile pydub librosa --quiet
